@@ -1,0 +1,106 @@
+.all {
+    margin: 45px 760px 347px 760px;
+    width: 500px;
+    height: 2000px;
+}
+.logo  {
+    text-align: center;
+}
+.header h5 {
+    font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+}
+.header h2 {
+    font-weight: 900;
+font-size: 32px;
+line-height: 39px;
+}
+.header {
+    text-align: center;
+    padding-top: 128px;
+}
+.login {
+    padding-top: 48px;
+    padding-left: 40px;
+}
+.login input {
+    width: 400px;
+height: 50px;
+border: 1px solid #37A9CD;
+border-radius: 5px;
+}
+.bt {
+    padding-top: 30px;
+}
+.Lg {
+    padding-bottom: 15px;
+}
+
+
+.Lg button {
+    background-color: #37A9CD;
+    font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+
+border: 0px;
+color: aliceblue;
+padding-bottom: 15px;
+border-radius: 5px;
+    color: aliceblue;
+    text-align: center;
+    width: 400px;
+    height: 50px;
+    justify-content: space-between;
+align-items: center;
+}
+
+
+
+.gg button {
+    font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+border: 0px;
+color: aliceblue;
+background:  url(iconfinder_Google_1298745.;);
+background-color: black;
+border-radius: 5px;
+    color: aliceblue;
+    text-align: center;
+    width: 400px;
+    height: 50px;
+    justify-content: space-between;
+align-items: center;
+
+}
+.bt button { padding-top: 15px;}
+.footer {
+    text-align: center;
+    padding-top: 32px;
+}
+.creat a{
+    text-align: center;
+    display: flex;
+    text-decoration: none;
+    color: #37A9CD;
+    padding-left: 120px;
+}
+.forgot a{
+text-decoration: none;
+color: #37A9CD;
+}
+.creat {
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.s {
+    color: black;
+}
+.footer a {
+    font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+}

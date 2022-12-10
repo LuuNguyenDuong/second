@@ -32,22 +32,27 @@ const arrListProduct = [
 ];
 function showProduct(data) {
     //cấu trục của query : vd :document.querySelector("[css của thẻ muốn lấy]")
-    let Product_item = document.querySelector(".six");
+    let Product_item = document.querySelector("three");
     //kiểm tra xem nó có tồn tại hay k
     if (Product_item) {
         for (let item of data) {
             Product_item.innerHTML += `
-            <div class="banner1">
-                <img src="${item.img}" alt="" class="dishes_img">
-                <h4> ${item.name} </h4>
-            <div class="one_text">
-                <div>
-                    <img src="img/Timer.png" alt="">
-                    <p>$30</p>
-                    <button>Add To Cart</button>
+            <div class="one">
+             <img src="${item.img}" alt="" class="dishes_img">
+             <h4> ${item.name} </h4>
+                <div class="one_text">
+                    <div>
+                        <p>
+                            $30
+                        </p>
+                        
+                    </div>
+                    
                 </div>
+                <button>Add To Cart</button>
             </div>
-        </div>
+             
+         
             `;
         }
     }
